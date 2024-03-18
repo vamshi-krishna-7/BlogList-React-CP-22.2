@@ -1,0 +1,49 @@
+/* Write your CSS code here */
+
+.each-list-item {
+  width: 100%;
+}
+
+.blogItem-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-descrip-container {
+}
+
+.title {
+  color: #12022f;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.description {
+  color: #9aa5b1;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.publishedDate {
+}
+
+.horizon-line {
+  color: #9aa5b1;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .publishedDate {
+    font-size: 12px;
+  }
+}
